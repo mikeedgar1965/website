@@ -1,0 +1,119 @@
+/* main web site styles */
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 2;
+  text-align: center;
+  box-sizing: border-box;
+  /* border: 1px solid red; */
+}
+
+body {
+  background-color: rgb(178, 34, 34);
+  background-color:#471952;
+  font-family: "times new roman";
+  font-size: 20px;
+  margin: 50px;
+}
+header, section, footer {
+  padding: 30px;
+  margin: 30px;
+}
+
+header {
+  /* background-color: red; */
+  color:pink;
+  font-family: roboto;
+  border-bottom:  5px solid black;
+}
+
+section {
+  color:green;
+  border: 1px ridge black;
+}
+
+footer {
+  color: blue;
+}
+
+h1 {
+  color:black;
+  font-size: 24px;
+  text-align:center;
+  font-family: roboto;
+}
+header h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+h1,h2,h3 {
+  font-weight: normal;
+  font-style: normal;
+  margin-bottom: 20px;
+
+}
+
+background{
+  color: white;
+  body: black;
+  margin-bottom: 40px;
+}
+
+p {
+  line-height: 2;
+}
+footer p {
+  font-size: 13px;
+  text-align: center;
+}
+
+a:link,
+a:focus,
+a:active {
+  text-decoration: none;
+  color: red;
+}
+
+a:focus {
+  background-color: black;
+}
+
+a:active {
+  color: red;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color:grey;
+}
+
+p {
+  margin: 30px 0;
+}
+
+ul, ol {
+  margin: 30px 0;
+}
+
+img {
+  width: 720px;
+  height: 480px:
+}
+
+.title {
+  font-size: 48px;
+  text-decoration: underline;
+}
+
+. #bottoEnd of page {
+  align: right;
+}
