@@ -9,6 +9,8 @@
 }
 
 body {
+  background-image: url(images/papyrus.png);
+  /* background-repeat: no-repeat;   */
   background-color: rgb(178, 34, 34);
   background-color:#471952;
   font-family: "times new roman";
@@ -116,4 +118,18 @@ img {
 
 . #bottoEnd of page {
   align: right;
+}
+
+.banner {
+  height: 450px;
+  background-image: url(images/medium-oldtime.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner p {
+  font-size: 40px;
+  color: blue;
+  text-align: center;
+  padding-top: 300px;
 }
